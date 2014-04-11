@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Administrator/Dashboard.aspx" title="Dashboard">
+      <siteMapNode title="Users">
+        <siteMapNode url="~/Administrator/Users/AddNewUser.aspx" title="Add New User" />
+        <siteMapNode url="~/Administrator/Users/ViewUsers.aspx" title="View Users" />
+        <siteMapNode url="~/Administrator/Users/UserInformation.aspx" title="User Information" />
+      </siteMapNode>
+      <siteMapNode title="Roles">
+        <siteMapNode url="~/Administrator/Roles/ManageRoles.aspx" title="Manage Roles" />
+        <siteMapNode url="~/Administrator/Roles/UsersAndRoles.aspx" title="Users and Roles" />
+      </siteMapNode>
+      <siteMapNode title="Student">
+        <siteMapNode url="~/Administrator/Student/AddNewStudent.aspx" title="Add New Student" />
+        <siteMapNode url="~/Administrator/Student/ViewStudents.aspx" title="View Students" />
+        <siteMapNode url="~/Administrator/Student/StudentInformation.aspx" title="Student Information" />
+      </siteMapNode>
+      <siteMapNode title="Lecturer">
+        <siteMapNode url="~/Administrator/Lecturer/AddNewLecturer.aspx" title="Add New Lecturer" />
+        <siteMapNode url="~/Administrator/Lecturer/ViewLecturers.aspx" title="View Lecturers" />
+        <siteMapNode url="~/Administrator/Lecturer/LecturerInformation.aspx" title="Lecturer Information" />
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>
